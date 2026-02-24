@@ -1,0 +1,32 @@
+# MetaTrader 5 generated files
+*.ex5
+*.log
+
+# MQL5 build artifacts
+MQL5/Logs/
+MQL5/Tester/
+
+# Signal files (runtime, not to be committed)
+signals/*.json
+signals/*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+config/config.ini
+
+# Python (if using MT5 Python API for testing)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
